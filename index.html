@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>homework_16_Forms</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			Я хедер
+		</header>
+
+		<main class="main">
+			<div class="main__container">
+				<form class="appointment" action="#">
+					<h3 class="appointment__label">Make an appointment</h3>
+					<div class="appointment__lines">
+						<div class="appointment__line">
+							<input id="username" placeholder="Name" autocomplete="off" type="text" name="username"
+								class="appointment__input">
+						</div>
+						<div class="appointment__line">
+							<input id="email" placeholder="Email" autocomplete="off" type="text" name="email"
+								class="appointment__input">
+						</div>
+						<div class="appointment__line">
+							<input id="phone" placeholder="Phone Number" autocomplete="off" type="tel" name="phone"
+								class="appointment__input">
+						</div>
+						<div class="appointment__line">
+							<input id="service" placeholder="Select Service" autocomplete="off" type="text" name="service"
+								class="appointment__input">
+						</div>
+						<div class="appointment__line appointment__line_area"><textarea
+								placeholder="Tell us about your puppers include his/her name" autocomplete="off" name="text"
+								class="appointment__input appointment__input_area"></textarea></div>
+					</div>
+					<div class="appointment__footer">
+						<button type="submit" class="appointment__button">Make an
+							Appointment</button>
+					</div>
+				</form>
+			</div>
+		</main>
+
+		<footer class="footer">
+			Я футер
+		</footer>
+
+	</div>
+</body>
+
+</html>
